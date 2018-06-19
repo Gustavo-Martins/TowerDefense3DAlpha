@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\WaveSpawner.cs" />
     <Compile Include="Assets\Scripts\Waypoints.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>K:/Projetos/TowerDefense3DAlpha/Tower Defense 3D Alpha/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
