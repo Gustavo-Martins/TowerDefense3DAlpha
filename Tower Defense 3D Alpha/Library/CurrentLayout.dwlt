@@ -354,7 +354,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 00300000
     m_LastClickedID: 12288
-    m_ExpandedIDs: 00000000f00800001e090000900a0000
+    m_ExpandedIDs: 00000000f208000020090000de090000f40900009a0a0000040b00005e0b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -395,7 +395,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f00800001e090000900a0000
+    m_ExpandedIDs: 00000000f208000020090000f40900009a0a0000040b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -511,9 +511,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c0d0000
-    m_LastClickedID: 3468
-    m_ExpandedIDs: 48efffffeafbffff00000000
+    m_SelectedIDs: 2eb8fbff
+    m_LastClickedID: 0
+    m_ExpandedIDs: 8ef6ffff90f6ffffeafbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -563,14 +563,14 @@ MonoBehaviour:
     height: 551
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 3817.2444761419833
-  m_2DMode: 1
+  lastFramingTime: 2645.753137730658
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 475.36353, y: 484.173, z: 0}
+    m_Target: {x: 34.02565, y: 1.8097619, z: -0.6387372}
     speed: 2
-    m_Value: {x: 475.36353, y: 484.173, z: 0}
+    m_Value: {x: 34.02565, y: 1.8097619, z: -0.6387372}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -590,28 +590,28 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.00091838354, y: 0.9882087, z: -0.0059293886, w: -0.15299629}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.0009183834, y: 0.9882086, z: -0.0059293876, w: -0.15299627}
   m_Size:
-    m_Target: 227.99078
+    m_Target: 7.2073
     speed: 2
-    m_Value: 227.99078
+    m_Value: 7.2073
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.6057583, y: 0.00024111438, z: -0.00019541211, w: -0.79570633}
-  m_LastSceneViewOrtho: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
