@@ -9,15 +9,24 @@ public class Node : MonoBehaviour {
 
     private Renderer rend;
     public Vector3 positionOffSet;
-    
+
+    GameManager gameManager;
 
     void Start()
     {
         rend = GetComponent<Renderer>();
+        startColor = rend.material.color;
+
+        gameManager = GameManager.instance;
     }
 
     void OnMouseDown()
     {
+        if (gameManager.GetTurretToBuild() == null)
+        {
+            return;
+        }
+
         if (turret != null)
         {
             Debug.Log("You can't build there!");
@@ -31,7 +40,12 @@ public class Node : MonoBehaviour {
        
     void OnMouseEnter()
     {
-        GetComponent<Renderer>().material.color = hoverColor;
+        if (gameManager.GetTurretToBuild() == null)
+        {
+            return;
+        }
+        
+            GetComponent<Renderer>().material.color = hoverColor;
     }
 
     void OnMouseExit()
