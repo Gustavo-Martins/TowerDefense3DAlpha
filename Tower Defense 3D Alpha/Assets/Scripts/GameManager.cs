@@ -24,12 +24,22 @@ public class GameManager : MonoBehaviour {
 
     public Text goldCountText;
     public int goldCount = 10;
+    public Text lifeCountText;
+    public int lifeCount = 10;
 
     private GameObject turretToBuid;
 
     void Update()
     {
         goldCountText.text = goldCount.ToString();
+        lifeCountText.text = lifeCount.ToString();
+
+        if (lifeCount <= 0)
+        {
+            // Stops if Game Over
+            WaveSpawner waveSpawner = GetComponent<WaveSpawner>();
+            waveSpawner.enabled = false;
+        }
     }
     
     public GameObject turretToBuild;

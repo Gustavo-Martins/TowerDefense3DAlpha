@@ -6749,6 +6749,9 @@ MonoBehaviour:
     type: 2}
   goldCountText: {fileID: 2140019985}
   goldCount: 10
+  lifeCountText: {fileID: 1280001777}
+  lifeCount: 10
+  turretToBuild: {fileID: 0}
 --- !u!1001 &997644471
 Prefab:
   m_ObjectHideFlags: 0
