@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  goldBounty: 1
 --- !u!135 &135435686991383430
 SphereCollider:
   m_ObjectHideFlags: 1

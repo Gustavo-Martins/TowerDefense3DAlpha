@@ -35,6 +35,11 @@ public class Bullet : MonoBehaviour {
 
     void HitTarget()
     {
+        // Gets gold bounty from enemy
+        Enemy enemy = target.GetComponent<Enemy>();
+        GameManager.instance.goldCount += enemy.goldBounty;
+
+        // Destroy object and particle effects
         GameObject effectInstance = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(effectInstance, 2f);
         Destroy(target.gameObject);

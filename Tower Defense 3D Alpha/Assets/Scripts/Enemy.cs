@@ -4,6 +4,7 @@ public class Enemy : MonoBehaviour
 {
 
     public float speed = 10f;
+    public int goldBounty = 10;
 
     private Transform target;
     private int waypointIndex = 0;

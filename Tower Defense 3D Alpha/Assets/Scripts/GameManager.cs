@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
@@ -21,7 +22,17 @@ public class GameManager : MonoBehaviour {
     public GameObject missileTurretPrefab;
     public GameObject laserTurretPrefab;
 
-    private GameObject turretToBuild;
+    public Text goldCountText;
+    public int goldCount = 10;
+
+    private GameObject turretToBuid;
+
+    void Update()
+    {
+        goldCountText.text = goldCount.ToString();
+    }
+    
+    public GameObject turretToBuild;
 
     public GameObject GetTurretToBuild()
     {
